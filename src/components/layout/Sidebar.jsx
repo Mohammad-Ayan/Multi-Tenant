@@ -5,6 +5,7 @@ import {
   Settings,
   TrendingUp,
   Briefcase,
+  BarChart
 } from 'lucide-react'
 import { useAuthStore } from '../../stores/auth.store'
 
@@ -24,7 +25,7 @@ export default function Sidebar() {
         <div className="flex items-center gap-3">
           {/* Logo Icon */}
           <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-blue-600 text-white">
-            <Briefcase size={18} />
+            <BarChart size={18} />
           </div>
 
           {/* Brand Text */}
