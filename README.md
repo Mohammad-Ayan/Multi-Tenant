@@ -1,4 +1,4 @@
-# 🧾 SalesDesk — Multi-Tenant Sales Dashboard (Frontend)
+# 🧾 SalesDesk — Multi-Tenant Sales Dashboard
 
 A **production-ready, frontend-only SaaS dashboard** demonstrating **multi-tenancy**, **role-based access control (RBAC)**, and **modular React architecture**.
 Built as part of an assignment with emphasis on **structure, UX, scalability, and application behavior** rather than backend completeness.
@@ -190,7 +190,6 @@ It demonstrates:
 * Correct multi-tenant logic
 * Production-level UI polish
 
-✅ **Assignment requirements fully satisfied**
 
 ---
 
