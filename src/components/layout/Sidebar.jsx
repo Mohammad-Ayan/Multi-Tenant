@@ -4,6 +4,7 @@ import {
   PhoneCall,
   Settings,
   TrendingUp,
+  Briefcase,
 } from 'lucide-react'
 import { useAuthStore } from '../../stores/auth.store'
 
@@ -23,8 +24,8 @@ export default function Sidebar() {
       <div className="px-4 pt-5 pb-3">
         <div className="flex items-center gap-3">
           {/* Logo Icon */}
-          <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-blue-600 text-white">
-            <TrendingUp size={18} />
+          <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-blue-600 text-white">
+            <Briefcase size={18} />
           </div>
 
           {/* Brand Text */}
