@@ -3,7 +3,7 @@ import { create } from 'zustand'
 export const useAuthStore = create((set) => ({
   user: {
     id: 'u1',
-    name: 'Amina Akhtar',
+    name: 'John Smith',
     role: 'Admin',
 
     // orgs user CAN access
@@ -17,7 +17,7 @@ export const useAuthStore = create((set) => ({
     set({
       user: {
         id: 'u1',
-        name: 'Amina Akhtar',
+        name: 'John Smith',
         role: 'Admin',
         allowedTenants: ['orgA', 'orgB'],
         tenantId: 'orgA', // default active org
@@ -29,7 +29,7 @@ export const useAuthStore = create((set) => ({
     set({
       user: {
         id: 'u2',
-        name: 'Sales Agent',
+        name: 'Johnson Doe',
         role: 'Agent',
         allowedTenants: ['orgA'],
         tenantId: 'orgA',
