@@ -5,17 +5,17 @@ import AppRoutes from './AppRoutes'
 
 
 export default function App() {
-const user = useAuthStore((s) => s.user)
+  const user = useAuthStore((s) => s.user)
 
 
-if (!user) {
-return <Login />
-}
+  if (!user) {
+    return <Login />
+  }
 
 
-return (
-<Layout>
-<AppRoutes />
-</Layout>
-)
+  return (
+    <Layout>
+      <AppRoutes />
+    </Layout>
+  )
 }

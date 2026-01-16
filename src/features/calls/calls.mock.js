@@ -1,5 +1,3 @@
-// src/features/calls/calls.mock.js
-
 export const callsByTenant = {
   orgA: [
     {
