@@ -1,5 +1,3 @@
-// src/utils/format.js
-
 export function formatDateTime(iso) {
   const date = new Date(iso)
   return date.toLocaleString()
